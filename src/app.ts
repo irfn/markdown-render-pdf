@@ -26,4 +26,4 @@ const settings: MarkdownPDFRenderOptions = {
     theme:  'slate'
 }
 
-generatePDF('out.pdf', settings);
+generatePDF('./out/out.pdf', settings);
