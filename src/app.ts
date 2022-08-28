@@ -24,7 +24,7 @@ function generatePDF(fileName: string, settings: MarkdownPDFRenderOptions) {
 const settings: MarkdownPDFRenderOptions = {
     templateName: 'nda',
     templateVariables: { company: 'Setu', tparty: 'Aagya' },
-    theme:  'modest'
+    theme:  'splendor'
 }
 
 generatePDF('./out/out.pdf', settings);
